@@ -18,6 +18,8 @@
           - redis
           - mongodb
           - scons
+          - wget
+          - zsh
 
     # requires node/npm from above
     - name: install global apps from npm
