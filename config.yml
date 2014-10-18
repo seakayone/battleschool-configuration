@@ -18,6 +18,7 @@ sources:
          - dropbox.yml
          - github.yml
          #- gitx.yml
+         - homebrew.yml
          #- intellij-idea-ultimate.yml
          - iterm2.yml
          - java6.yml
