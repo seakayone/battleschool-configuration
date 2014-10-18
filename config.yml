@@ -9,12 +9,12 @@ sources:
 
   git:
     - name: 'osx'
-      repo: 'https://github.com/spencergibb/ansible-osx'
+      repo: 'https://github.com/seakayone/ansible-osx'
       playbooks:
          #- adium.yml
          #- alfred.yml
          #- better-touch-tool.yml
-         #- chrome-beta.yml
+         - chrome-stable.yml
          - dropbox.yml
          - github.yml
          #- gitx.yml
