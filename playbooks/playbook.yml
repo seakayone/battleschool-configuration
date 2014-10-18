@@ -1,0 +1,43 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: print from playbook
+      debug: msg="in playbooks/playbook.yml"
+
+    - name: install apps from homebrew
+      homebrew: name={{item}} state=present
+      with_items:
+          - git
+          - git-flow
+          - maven
+          - gradle
+          - springboot
+          - boot2docker
+          - docker
+          - redis
+          - mongodb
+          - scons
+
+    # requires node/npm from above
+    - name: install global apps from npm
+      npm: name={{item}} global=yes
+      with_items:
+          - grunt-cli
+
+    # - name: create homdir symlinks
+    #   file: src={{item.from}} dest={{item.to}} state=link
+    #   sudo: no
+    #   with_items:
+    #      - from: ~/Dropbox/conf/zsh/.vimrc
+    #        to: ~/.vimrc
+    #      - from: ~/Dropbox/conf/zsh/.zsh
+    #        to: ~/.zsh
+    #      - from: ~/Dropbox/conf/zsh/.zshrc
+    #        to: ~/.zshrc
+
+    - name: install gems
+      gem: name={{item}} state=latest
+      with_items:
+          - bropages
+          - compass
