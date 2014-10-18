@@ -11,10 +11,6 @@ In order to you it you must checkout the .battleschool folder into you home and 
 
     sudo pip install battleschool
 
-# Running battleschool for the first time
-
-    battle --config-file http://somesite/path/to/your/config.yml
-
 # Install dev environment
 
     battle -K
