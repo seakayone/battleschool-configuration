@@ -20,6 +20,7 @@ sources:
          #- gitx.yml
          #- intellij-idea-ultimate.yml
          - iterm2.yml
+         - java6.yml
          #- java7.yml
          - libreoffice.yml
          #- sequel-pro.yml
