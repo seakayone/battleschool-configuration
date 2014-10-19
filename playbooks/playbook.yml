@@ -20,6 +20,7 @@
           - scons
           - wget
           - zsh
+          - ack
 
     # requires node/npm from above
     - name: install global apps from npm
