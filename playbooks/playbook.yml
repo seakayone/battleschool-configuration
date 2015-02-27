@@ -23,6 +23,7 @@
           - zsh
           - ack
           - tree
+          - gnuplot
 
     # requires node/npm from above
     - name: install global apps from npm
