@@ -24,6 +24,7 @@
           - ack
           - tree
           - gnuplot
+          - nmap
 
     # requires node/npm from above
     - name: install global apps from npm
