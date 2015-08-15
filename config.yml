@@ -11,23 +11,15 @@ sources:
     - name: 'osx'
       repo: 'https://github.com/seakayone/ansible-osx'
       playbooks:
-         #- adium.yml
-         #- alfred.yml
          - better-touch-tool.yml
          - chrome-stable.yml
          - dropbox.yml
          - github.yml
-         #- gitx.yml
          - homebrew.yml
-         #- intellij-idea-ultimate.yml
          - iterm2.yml
          - java6.yml
-         #- java7.yml
          - libreoffice.yml
-         #- sequel-pro.yml
          - skype.yml
-         #- truecrypt.yml
-         #- usb-overdrive.yml
          - vagrant.yml
          - virtualbox.yml
          - xtra-finder.yml
