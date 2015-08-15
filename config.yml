@@ -11,15 +11,22 @@ sources:
     - name: 'osx'
       repo: 'https://github.com/seakayone/ansible-osx'
       playbooks:
+         - atom.yml
          - better-touch-tool.yml
          - chrome-stable.yml
          - dropbox.yml
+         - evernote.yml
          - github.yml
          - homebrew.yml
          - iterm2.yml
          - java6.yml
+         - java7.yml
+         - java8.yml
+         - keepassx.yml
          - libreoffice.yml
+         - oh-my-zsh.yml
          - skype.yml
          - vagrant.yml
          - virtualbox.yml
+         - vlc.yml
          - xtra-finder.yml
