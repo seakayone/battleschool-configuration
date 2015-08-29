@@ -9,6 +9,7 @@
       homebrew: name={{item}} state=present
       sudo: no
       with_items:
+          - figlet
           - git
           - git-flow
           - sbt
