@@ -12,6 +12,7 @@
           - figlet
           - git
           - git-flow
+          - httpie
           - sbt
           - maven
           - gradle
