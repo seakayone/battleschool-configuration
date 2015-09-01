@@ -34,6 +34,8 @@
       npm: name={{item}} global=yes
       with_items:
           - grunt-cli
+          - bower
+          - gulp
 
     # - name: create homdir symlinks
     #   file: src={{item.from}} dest={{item.to}} state=link
